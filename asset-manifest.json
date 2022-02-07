@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Restaurant-Project-Deploy/static/css/main.825c154a.css",
+    "main.js": "/Restaurant-Project-Deploy/static/js/main.962f6d10.js",
+    "static/media/img-1.jpg": "/Restaurant-Project-Deploy/static/media/img-1.96e26c17ef7e07a0fcd2.jpg",
+    "static/media/img-2.jpg": "/Restaurant-Project-Deploy/static/media/img-2.c190bad7b6241a876993.jpg",
+    "static/media/logo.jpg": "/Restaurant-Project-Deploy/static/media/logo.0ae19ae8350b1dd9de8e.jpg",
+    "static/media/Heder-pic.jpeg": "/Restaurant-Project-Deploy/static/media/Heder-pic.7c5b7dbdc47e3eadeee5.jpeg",
+    "static/media/B-3.jpg": "/Restaurant-Project-Deploy/static/media/B-3.a71e15c3c64353ed1284.jpg",
+    "static/media/L-1.jpg": "/Restaurant-Project-Deploy/static/media/L-1.cd8969ed13e6b77111cf.jpg",
+    "static/media/Restaurant_About.jpg": "/Restaurant-Project-Deploy/static/media/Restaurant_About.c5706818d0d0d67d7151.jpg",
+    "static/media/img-3.jpg": "/Restaurant-Project-Deploy/static/media/img-3.a82c1fe6af5274045ac2.jpg",
+    "static/media/L-7.jpg": "/Restaurant-Project-Deploy/static/media/L-7.600023c0266fd5bc63cc.jpg",
+    "static/media/B-8.jpg": "/Restaurant-Project-Deploy/static/media/B-8.aceb9d1832e5fcdb9e64.jpg",
+    "static/media/B-5.jpg": "/Restaurant-Project-Deploy/static/media/B-5.c6058f786ded08c93553.jpg",
+    "static/media/L-2.jpg": "/Restaurant-Project-Deploy/static/media/L-2.13e739d1b8ccc9302cd2.jpg",
+    "static/media/B-2.jpg": "/Restaurant-Project-Deploy/static/media/B-2.d54878a797be99bc863d.jpg",
+    "static/media/L-6.jpg": "/Restaurant-Project-Deploy/static/media/L-6.7a9c286356f6494ed695.jpg",
+    "static/media/L-4.jpg": "/Restaurant-Project-Deploy/static/media/L-4.07c4f59616f46607db94.jpg",
+    "static/media/B-4.jpg": "/Restaurant-Project-Deploy/static/media/B-4.55c975735d15985556b3.jpg",
+    "static/media/L-8.jpg": "/Restaurant-Project-Deploy/static/media/L-8.42c5ae8d052e089a99aa.jpg",
+    "static/media/img-4.jpg": "/Restaurant-Project-Deploy/static/media/img-4.b60f86cb17ce2e04b79f.jpg",
+    "static/media/L-3.jpg": "/Restaurant-Project-Deploy/static/media/L-3.4b0f3104bc128b0bc401.jpg",
+    "static/media/B-6.jpg": "/Restaurant-Project-Deploy/static/media/B-6.a2a0f4121e736cf09ffc.jpg",
+    "static/media/B-7.jpg": "/Restaurant-Project-Deploy/static/media/B-7.c856a39240acf9828605.jpg",
+    "static/media/L-5.jpg": "/Restaurant-Project-Deploy/static/media/L-5.ee05127250f18a1003b2.jpg",
+    "static/media/B-1.jpg": "/Restaurant-Project-Deploy/static/media/B-1.05f37e53470945a5c6c4.jpg",
+    "index.html": "/Restaurant-Project-Deploy/index.html",
+    "main.825c154a.css.map": "/Restaurant-Project-Deploy/static/css/main.825c154a.css.map",
+    "main.962f6d10.js.map": "/Restaurant-Project-Deploy/static/js/main.962f6d10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.825c154a.css",
+    "static/js/main.962f6d10.js"
+  ]
+}
