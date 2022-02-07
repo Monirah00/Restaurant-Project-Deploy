@@ -1,38 +1,239 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+.checked {
+  color: orange;
+} 
+ul>li{
+  list-style: none;
+}
+.navbar{
+  padding: 1% 7%;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.nav-link:hover{
+text-decoration: underline;
+}
+.NavLogo{
+ width: 100%;
+ max-width: 90px;
+ height: 90px;
+ border-radius: 50%;
+ border: 5px solid rgb(161, 241, 174);
+}
+/*Navbar End */
+
+header{
+  background-image: url('./Images/Heder-pic.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+.Header-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:deeppink;
+
+}
+.Header-content>.header-btn{
+border-radius: 20%;
+}
+/*Header End */
+.container{
+  position: relative;
+}
+hr{
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.AboutPic{
+  width: 100%;
+  padding: 20px 20px ;
+  margin: 20px 20px;
+}
+.About-content{
+  padding: 20px 20px ;
+  margin: 20px 20px;
+  font-size: 20px;
+  transition: all ease 0.5s;
+}
+.About-content>p::first-letter{
+  font-size: 30px;
+  color: deeppink;
+  font-style: italic;
+}
+
+.About-content:hover{
+  line-height: 2;
+}
+
+.AboutPic:hover{
+  opacity: 0.5;
+}
+/*About End */
+
+.Card{
+  background-color:#fff;
   text-align: center;
+  padding: 30px 25px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+  margin-bottom: 30px;
+  transition:  all 0.5s ease 0s;
+
+}
+.Sdata{
+  width: 100%;
+  max-width: 300px;
+  height:300px;
+  border-radius: 50%;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Home End*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.DetailsPic{
+  width: 100%;
+  max-width: 700px;
+  height: 700px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*Details end*/
+.Team-card{
+  margin: 15px 15px;
+  padding: 20px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  
+}
+.Team-pic{
+
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid green;
+}
+.Team-card p{
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+.Team-card p::first-letter{
+  color: deeppink;
+  font-size: 26px;
+  font-style: italic;
+}
+/*Team End*/
+
+
+
+/*Contact-start*/
+.Contact-Section{
+  background-color: rgb(36, 34, 34);
 }
 
-.App-link {
-  color: #61dafb;
+.Contact_content{
+  line-height: 1;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  font-size: 18px;
+  transition: all ease 0.5s;
+}
+.Contact_content::first-letter{
+  font-weight: bolder;
+  color: hotpink;
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.AllcontactInfo{
+  border: 1px solid white;
+  padding: 25px 25px;
+}
+label{
+  margin: 5px 5px ;
+  padding: 5px 5px;
+  font-weight: bolder;
+}
+
+
+input{
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: outset;
+}
+.list-group{
+  padding: 20px 20px;
+  margin: 20px 20px;
+}
+form {
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+/*Contact end*/
+
+.card{
+  padding: 20px 20px;
+  margin: 20px 20px;
+  box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px ;
+  border-radius: 4px;
+  transition: 0.5s;
+
+}
+.card:hover{
+  transform: scale(1.1);
+  background-color: tomato;
+}
+
+.icons{
+  font-size: 35px;
+  color: tomato;
+}
+.card:hover .icons{
+  color:red;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  padding: 15px 15px;
+  border-radius: 30%;
+  
+}
+
+
+@media screen and (max-width:550px) {
+  input{
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  textarea{
+    width: 100%;
   }
+  img{
+    width: 100%;
+  }
+ 
 }
